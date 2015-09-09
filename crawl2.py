@@ -9,7 +9,7 @@ from datetime import datetime
 from os import listdir
 from os.path import join, isfile
 
-counter = len([f for f in listdir('img2') if isfile(join('img', f))])
+counter = len([f for f in listdir('img2') if isfile(join('img2', f))])
 
 url = "http://www.tpex.org.tw/web/inc/authnum.php"
 
