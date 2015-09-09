@@ -27,7 +27,7 @@ while counter < 10000:
                         f = open('img/{}.jpg'.format(str(counter).zfill(4)), 'wb')
                         shutil.copyfileobj(image.raw, f)
 
-        counter += 1
+                        counter += 1
     except Exception as e:
         print e
     finally:
