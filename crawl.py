@@ -9,7 +9,7 @@ from datetime import datetime
 from os import listdir
 from os.path import join, isfile
 
-counter = len([f for f in listdir('img') if isfile(join('img', f))])
+counter = len([f for f in listdir('img') if f.endswith('.jpg')])
 
 url = "http://bsr.twse.com.tw/bshtm"
 
