@@ -1,6 +1,6 @@
-# Collect Recaptcha Images
+# Collect Captcha Images
 
-這個專案抓了上市上櫃券商買賣日報各 10000 張 recaptcha 圖，可以用來做 ML 或後續的研究。
+這個專案抓了上市上櫃券商買賣日報各 10000 張 captcha 圖，可以用來做 ML 或後續的研究。
 
 ## 資料來源
 
